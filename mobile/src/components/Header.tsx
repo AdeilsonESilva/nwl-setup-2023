@@ -19,6 +19,13 @@ export function Header() {
 
         <Text className="text-white ml-3 font-semibold text-base">Novo</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        className="flex-row h-11 px-4 border border-violet-500 rounded-lg items-center"
+        onPress={() => navigate("notifications")}
+      >
+        <Text className="text-white font-semibold text-xs">Notificações</Text>
+      </TouchableOpacity>
     </View>
   );
 }
